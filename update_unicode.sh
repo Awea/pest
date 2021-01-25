@@ -3,7 +3,7 @@
 cargo install ucd-generate || true
 
 rm -r ./target/ucd/
-mkdir ./target/ucd/
+mkdir -p ./target/ucd/
 cd ./target/ucd/
 curl -LO https://www.unicode.org/Public/zipped/latest/UCD.zip
 unzip UCD.zip
